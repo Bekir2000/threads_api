@@ -1,8 +1,7 @@
 # Dependency directories
 node_modules/
 
-# Ignore Pem
-*.pem
+
 
 # Local folder
 local/
