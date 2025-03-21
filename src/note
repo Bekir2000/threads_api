@@ -1,0 +1,24 @@
+/*
+// get user toatal insides
+axios.get(`https://graph.threads.net/me/threads_insights?metric=views,likes,replies,quotes,reposts,followers_count&access_token=${accessToken}`)
+  .then(response => console.log(response.data))
+  .catch(error => {
+    console.error('Error fetching Threads insights:', error.message);
+    process.exit(1);
+  });
+  */
+
+
+  /*
+  // get all threads
+  axios.get(`https://graph.threads.net/v1.0/me/threads?fields=id,thumbnail_url&access_token=${accessToken}`)
+  .then(response => {
+    console.log(response.data); // Full response
+    const firstPost = response.data.data?.[0]; // Get the first post
+    console.log(firstPost?.owner); // Access owner object
+  })
+  .catch(error => {
+    console.error('Error fetching Threads insights:', error.message);
+  });
+
+  */
